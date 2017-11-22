@@ -1,1 +1,153 @@
 <!-- Agrega aquí la estructura HTML de tu sitio web -->
+
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+	<title>Freelancer</title>
+</head>
+<body>
+	<!-- En el header introduciremos la información del menú conforme y daremos clases para trabajar con los elementos -->
+	<header>
+      <div class="float-right menu-list-container">
+        <a class="menu-item text-uppercase" href="#">Portfolio</a>
+        <a class="menu-item text-uppercase" href="#">About</a>
+        <a class="menu-item text-uppercase" href="">Contact</a>
+      </div>
+
+      <div class="float-left">
+        <span class="text-logo text-uppercase">Start Bootstrap</span>
+      </div>
+    </header>
+
+    <!-- Creamos la primer sección por medio de un id que contendrá clases para orgnizar la información -->
+
+	<section id="section-one">
+		<div class="head">
+			<img class="img-profile" src="assets/images/profile.png" alt="profile"/>
+			<div id="text">
+				<span class="title">Start Bootstrap</span>
+				  <div class="star-home">
+				  <hr class="star-left">
+				  <i class="fa fa-star fa-2x"></i>
+				  <hr class="star-right">
+				</div>
+			<p class="info">Web Developer - Graphic Artist - User Experience Design</p>
+			</div>
+		</div>
+
+		<!-- La segunda sección añadiremos parte del contenido de texto e imagenes por medio de clases y divs -->
+	</section>
+	<section class="portfolio">
+		<h1>Portfolio</h1>
+		<div class="star-panel">
+		   <hr class="line-blue-right">
+		   <i class="fa fa-star fa-2x"></i>
+		   <hr class="line-blue-left">
+	    </div>
+		<div class="content">
+           <article>
+             <img src="assets/images/portfolio/cabin.png">
+             
+           </article>
+           <article>
+             <img src="assets/images/portfolio/cake.png">
+             
+           </article>
+           <article>
+             <img src="assets/images/portfolio/circus.png">
+           
+           </article>
+           <article>
+             <img src="assets/images/portfolio/game.png">
+            
+           </article>
+           <article>
+             <img src="assets/images/portfolio/safe.png">
+             
+           </article>
+           <article>
+             <img src="assets/images/portfolio/submarine.png">
+        
+           </article>
+         </div>
+	</section>
+
+	<!-- La siguiente seccón contiene una clase donde se incluye el encabezado y los textos, así como el botón final -->
+
+	<section class="about">
+		<h1>About</h1>
+		  <div class="star-about">
+		   <hr class="line-white-right">
+		   <i class="fa fa-star fa-2x"></i>
+		   <hr class="line-white-left">
+	        </div>
+		  <div class="content">
+			 <div class="text-one"> 
+				<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+			  </div>
+			  <div class="text-two">
+				<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+		    	</div>
+		    </div>
+		 <div class="button">
+			<a class="but-1 but-2" href=""><i class="fa fa-download" aria-hidden="true"></i>Download Now!</a>
+		</div>
+	
+	</section>
+
+	<!-- Sección de Contacto consta de una clase donde ingresaremos el encabezado y el formulario con inputs que tendrán clases -->
+
+	<section class="contact">
+		<h1>Contact Me</h1>
+		    <div class="star-panel">
+		     <hr class="line-blue-right">
+		     <i class="fa fa-star fa-2x"></i> 
+		     <hr class="line-blue-left">
+	        </div>
+		   
+	          <div class="container">
+			
+			    <form class="form-reg" action="">
+				<input class="input" type="text" placeholder="Name" required autofocus>
+	            <input class="input" type="email" placeholder="Email Address" required>
+	            <input class="input" type="text" placeholder="Phone Number" required>
+	            <textarea rows="7" cols="50" class="input" type="text" placeholder="Message" required></textarea>
+
+	            <input class="btn-submit" type="submit" value="Send"> </form>
+		     </div>
+	</section>
+
+	<!-- Sección final contendrá una caja principal, en ella se ingresaran respectivamente 3 cajas más donde manipularemos la infromación con más fácilidad seguido de una última caja donde ingresaremos el Copyright. -->
+
+	<footer>
+		<div id="foot-content">
+			<div class="location">
+				<span>Location</span>
+				<p>3485 Melrose Place Beberly Hills, CA 902110</p>
+			</div>
+			<div class="social">
+				<span>Around The Web</span>
+					<div class="icons">
+						 <i class="fa fa-google-plus fa-2x"></i>
+			             <i class="fa fa-facebook fa-2x"></i>
+			             <i class="fa fa-twitter fa-2x"></i>
+						 <i class="fa fa-linkedin fa-2x"></i>
+						 <i class="fa fa-circle-thin fa-2x"></i>
+				     </div>
+			</div>
+		    <div class="about-me">
+				<span>About Freelancer</span>
+				<p>Freelance is a free to use, open source Bootstrap theme created bye <a href="">Start Bootstrap.</a></p>
+			</div>
+		</div>	
+		<div class="copyright">
+		  <a>Copyright © Your Website 2017</a>
+	    </div>
+	</footer>
+</body>
+</html>
