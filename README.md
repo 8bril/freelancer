@@ -25,7 +25,7 @@ a lograr:
 
 * Agregaremos 5 secciones que incluiran la información solicitada.
 
-* En cada sección agregaremos correspontientemente etiquetas <H1> para crear encabezados, <a> para crear vinculos, <p> para añadir parrafos solicitados.
+* En cada sección agregaremos correspontientemente etiquetas H1 para crear encabezados, a para crear vinculos, p para añadir parrafos solicitados.
 
 * Conforme al contenido implementaremos divs para darle una estructura más solida al proyecto.
 
