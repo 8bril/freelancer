@@ -386,6 +386,10 @@ footer {
 .fa:hover {
 	color: #18bc9c; 
 }
+ 
+.fw {
+	color: white;
+}
 
 .icons {
 	
